@@ -24,7 +24,7 @@ link {
  **********************************************************************************************************/
 
 body.initial {
-    background-image: url("/QuizTaker/Media/background-image.png");
+    background-image: url("/Media/background-image.png");
 }
 
 span.initial {
@@ -59,7 +59,7 @@ h1.loggedInHeader {
 }
 
 span.loggedIn {
-    background-image: url("/QuizTaker/Media/header-gray.jpg");
+    background-image: url("/Media/header-gray.jpg");
     background-position: left top;
     background-size: cover;
     position: absolute;

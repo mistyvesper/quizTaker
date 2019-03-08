@@ -62,7 +62,7 @@
                                 </tr>
                                 <tr class='initial' id='trRegisterForAccount'>
                                     <td class='initial' id='tdRegisterForAccount' colspan=2>
-                                        <a class='link' id='lnkRegisterForAccount' href='/QuizTaker/registerForAccount.php'>Don't have an account? Register here.</a>
+                                        <a class='link' id='lnkRegisterForAccount' href='registerForAccount.php'>Don't have an account? Register here.</a>
                                     </td>
                                 </tr>
                             </table>
