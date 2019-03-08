@@ -18,7 +18,7 @@
                 <meta charset='UTF-8'>
                 <title>Account Registration</title>
                 <style>
-                    @import url('/QuizTaker/Stylesheets/main.css');
+                    @import url('/Stylesheets/main.css');
                 </style>
                 <style>
                     body {
@@ -63,8 +63,8 @@
                 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'
                     integrity='sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30='crossorigin='anonymous'>
                 </script>
-                <script src='/QuizTaker/JavaScript/centerContent.js'></script>
-                <script src='/QuizTaker/JavaScript/accountRegistrationValidation.js'></script>
+                <script src='/JavaScript/centerContent.js'></script>
+                <script src='/JavaScript/accountRegistrationValidation.js'></script>
             </head>
             <body class='initial' id='bdyAccountRegistration'>
                 <span class='initial' id='spnAccountRegistration'>
@@ -77,7 +77,7 @@
                                     <input class='form-input' id='inAccountRegisterEmail' type='text' name='email' maxlength='50'>
                                 </td>
                                 <td class='form-results' id='tdAccountRegisterEmailResults'>
-                                    <img class='hidden' id='imgAccountRegisterEmailResults' src='/QuizTaker/Media/checkmark.png' />
+                                    <img class='hidden' id='imgAccountRegisterEmailResults' src='/Media/checkmark.png' />
                                 </td>
                                 <td class='form-results' id='tdAccountRegisterEmailTextResults'></td>
                             </tr>
@@ -87,7 +87,7 @@
                                     <input class='form-input' id='inAccountRegisterUser' type='text' name='userName' maxlength='25'>
                                 </td>
                                 <td class='form-results' id='inAccountRegisterUserResults'>
-                                    <img class='hidden' id='imgAccountRegisterUserResults' src='/QuizTaker/Media/checkmark.png' />
+                                    <img class='hidden' id='imgAccountRegisterUserResults' src='/Media/checkmark.png' />
                                 </td>
                                 <td class='form-results' id='tdAccountRegisterUserTextResults'></td>
                             </tr>
@@ -97,7 +97,7 @@
                                     <input class='form-input' id='inAccountRegisterPass' type='password' name='password' maxlength='25'>
                                 </td>
                                 <td class='form-results' id='inAccountRegisterPassResults'>
-                                    <img class='hidden' id='imgAccountRegisterPassResults' src='/QuizTaker/Media/checkmark.png' />
+                                    <img class='hidden' id='imgAccountRegisterPassResults' src='/Media/checkmark.png' />
                                 </td>
                                 <td class='form-results' id='tdAccountRegisterPassTextResults'></td>
                             </tr>
@@ -108,7 +108,7 @@
                             </tr>
                             <tr class='initial' id='trAccountRegisterBackToLogin' colspan=2>
                                 <td class='initial' id='tdAccountRegisterBackToLogin' colspan=2>
-                                    <a class='link' id='lnkBackToLogin' href='/QuizTaker/loginPage.php'>Back to Login Page</a>
+                                    <a class='link' id='lnkBackToLogin' href='loginPage.php'>Back to Login Page</a>
                                 </td>
                             </tr>
                         </table>

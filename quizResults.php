@@ -48,7 +48,7 @@ echo "<!DOCTYPE html>
                 </tr>
                 <tr class='quizResults' id='trReturnToHome'>
                     <td class='quizResults' id='tdReturnToHome'>
-                        <a class='link' id='lnkReturnToHome' href='/QuizTaker/index.php'>
+                        <a class='link' id='lnkReturnToHome' href='/index.php'>
                             <button class='quizResults' id='btnReturnToHome'>Return To Home</button>
                         </a>
                     </td>

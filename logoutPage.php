@@ -24,7 +24,7 @@ echo "<!DOCTYPE html>
                 <meta charset='UTF-8'>
                 <title>Logged Out</title>
                 <style>
-                    @import url('/QuizTaker/Stylesheets/main.css');
+                    @import url('/Stylesheets/main.css');
                 </style>
                 <style>
                     #spnLoggedOut {
@@ -39,7 +39,7 @@ echo "<!DOCTYPE html>
                 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'
                     integrity='sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30='crossorigin='anonymous'>
                 </script>
-                <script src='/QuizTaker/JavaScript/centerContent.js'></script>
+                <script src='/JavaScript/centerContent.js'></script>
             </head>
             <body class='initial' id='bdyLoggedOut'>
                 <span class='initial' id='spnLoggedOut'>
@@ -52,7 +52,7 @@ echo "<!DOCTYPE html>
                         <tr class='initial' id='trLoggedOut'>
                             <td class='initial' id='tdLoggedOut'>
                                 You have been successfully logged out.
-                                To log back in, please visit the <a class='link' id='lnkBackToLoginFromLogout' href='/QuizTaker/loginPage.php'>Login Page</a>.
+                                To log back in, please visit the <a class='link' id='lnkBackToLoginFromLogout' href='/loginPage.php'>Login Page</a>.
                             </td>
                         </tr>
                     </table>

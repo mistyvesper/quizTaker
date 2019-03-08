@@ -72,5 +72,5 @@ if (!isset($_SESSION['quizID'])) {
 
 echo "</span>
         </body>
-        <script src='/QuizTaker/JavaScript/quizNavigation.js'></script>
+        <script src='/JavaScript/quizNavigation.js'></script>
         </html>";

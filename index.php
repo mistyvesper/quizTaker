@@ -38,4 +38,4 @@ $quizzes->showQuizzes();
 
 // end of html doc
 
-echo "<script type='text/javascript' src='/QuizTaker/JavaScript/gauge.js'></script></span></body></html>";
+echo "<script type='text/javascript' src='/JavaScript/gauge.js'></script></span></body></html>";

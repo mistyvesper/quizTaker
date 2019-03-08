@@ -159,7 +159,7 @@
                         <meta charset='UTF-8'>
                         <title>Quiz Taker</title>
                         <style>
-                            @import url('/QuizTaker/Stylesheets/main.css');
+                            @import url('/Stylesheets/main.css');
                         </style>
                         <style>
                             #spnQuiz {
@@ -197,7 +197,7 @@
                         <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'
                             integrity='sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30='crossorigin='anonymous'>
                         </script>
-                        <script src='/QuizTaker/JavaScript/centerContent.js'></script>
+                        <script src='/JavaScript/centerContent.js'></script>
                     </head>
                     <body class='body-loggedin' id='bdyLoggedIn'>
                         <span class='loggedIn' id='spnLoggedIn'>
@@ -206,7 +206,7 @@
                                 <tr class='loggedInTop' id='trLoginInfo'>
                                     <td class='loggedInTop' id='tdPersonIcon'><img class='img' id='imgPersonIcon' src='Media/person_icon.png' style='width:35px;height:35px;'></td>
                                     <td class='loggedInTop' id='tdSignedInAs' style='width:23%'>Signed in as: <lbl class='lbl' id='lblSignedInAs'>$upperAppUser</lbl></td>
-                                    <td class='loggedInTop' id='tdLogOutLink' style='width:75%' align='right'><a class='link' id='lnkLogOutLink' href='/QuizTaker/logoutPage.php'>Logout</a></td>
+                                    <td class='loggedInTop' id='tdLogOutLink' style='width:75%' align='right'><a class='link' id='lnkLogOutLink' href='/logoutPage.php'>Logout</a></td>
                                 </tr>
                             </table>
                         </span>";  

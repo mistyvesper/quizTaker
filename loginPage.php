@@ -18,7 +18,7 @@
                 <meta charset='UTF-8'>
                 <title>Quiz Taker Login</title>
                 <style>
-                    @import url('/QuizTaker/Stylesheets/main.css');
+                    @import url('/Stylesheets/main.css');
                 </style>
                 <style>
                     span.initial {
@@ -36,7 +36,7 @@
                 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'
                     integrity='sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30='crossorigin='anonymous'>
                 </script>
-                <script src='/QuizTaker/JavaScript/centerContent.js'></script>
+                <script src='/JavaScript/centerContent.js'></script>
             </head>
             <body class='initial' id='bdyLoginPage'>
                 <span class='initial' id='spnLoginForm'>
