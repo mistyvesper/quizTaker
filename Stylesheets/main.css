@@ -1,0 +1,190 @@
+/**********************************************************************************************************
+ * ALL ELEMENTS
+ **********************************************************************************************************/
+
+body {
+    font-family: "Times";
+}
+
+link {
+    color: white;
+}
+
+/**********************************************************************************************************
+ * HIDDEN CLASS
+ **********************************************************************************************************/
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+/**********************************************************************************************************
+ * INITIAL CLASSES
+ **********************************************************************************************************/
+
+body.initial {
+    background-image: url("/QuizTaker/Media/background-image.png");
+}
+
+span.initial {
+    position: absolute;
+    background-color: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    border-radius: 15px;
+    padding: 80px  0px 80px 200px;
+    box-shadow: 10px 10px 5px grey;
+    text-overflow: ellipsis;
+    width: 530px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.form-input {
+    width: 200px;
+}
+
+/**********************************************************************************************************
+ * LOGGED IN CLASSES
+ **********************************************************************************************************/
+
+h1.loggedInHeader {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+span.loggedIn {
+    background-image: url("/QuizTaker/Media/header-gray.jpg");
+    background-position: left top;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0px;
+    height: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+table.loggedIn {
+    width: 98%;
+}
+
+tr.loggedInTop {
+    height: 100px;
+    vertical-align: top;
+    color: white;
+}
+
+tr.loggedInBottom {
+    height: 50px;
+}
+
+/**********************************************************************************************************
+ * QUIZZES CLASS
+ **********************************************************************************************************/
+
+span.quizzes {
+    position: absolute;
+    padding: 150px;
+}
+
+h1.quizzes {
+    font-size: 25px;
+}
+
+h2.quizzes {
+    font-size: 20px;
+}
+
+tr.quizzes {
+    padding: 5px;
+}
+
+th.quizzes {
+    padding: 2px;
+}
+
+td.quizzes {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+/**********************************************************************************************************
+ * QUESTIONS CLASSES
+ **********************************************************************************************************/
+
+.tblQuestions {
+    text-align: left;
+    padding: 10px;
+}
+
+tr.tblQuestions {
+    height: 30px;
+}
+
+.thQuestionHeader {
+    background-color: gray;
+    color: white;
+    width: 1050px;
+    padding: 2px;
+}
+
+.tblQuestionsButtons {
+    padding: 10px;
+}
+
+/**********************************************************************************************************
+ * ANSWERS CLASSES
+ **********************************************************************************************************/
+
+.tdAnswerBtn {
+    width: 50px;
+    text-align: center;
+}
+
+.tdAnswerText {
+    text-align: left;
+}
+
+/**********************************************************************************************************
+ * INDIVIDUAL STYLES
+ **********************************************************************************************************/
+
+#tdQuizAttemptsCount {
+    font-size: 40px;
+}
+
+#tdAverageScore {
+    font-size: 40px;
+}
+
+#trQuizzesHeaders {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+#thQuizName {
+    text-align: left;
+}
+
+#tdQuizName {
+    text-align: left;
+}
+
+#tdQuizOption {
+    text-align: right
+}
+
+#tdQuizOptions {
+    text-align: left;
+}
